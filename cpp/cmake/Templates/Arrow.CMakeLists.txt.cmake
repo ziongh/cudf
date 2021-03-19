@@ -20,7 +20,7 @@ include(ExternalProject)
 
 ExternalProject_Add(Arrow
     GIT_REPOSITORY    https://github.com/apache/arrow.git
-    GIT_TAG           apache-arrow-1.0.1
+    GIT_TAG           apache-arrow-3.0.0
     GIT_SHALLOW       true
     SOURCE_DIR        "${ARROW_ROOT}/arrow"
     SOURCE_SUBDIR     "cpp"
